@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="my to-do list">
+    <meta name="keywords" content="to do list">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <title>My To-Do List</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Start Over</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h1>My To-Do List</h1>
+        <h3>Instructions:</h3>
+        <p>Type your individual tasks into the text area and click "Add" to add the item to your list.
+            <br>Click the task item to remove it from the list when complete.
+        </p>
+
+        <input type="text" id="item"><br />
+        <input type="button" name="add" value="Add" id="add">
+
+        <ul id="list">
+            <li><a href="#">SAMPLE: Go to the store.</a></li>
+            <li><a href="#">SAMPLE: Go to the bank.</a></li>
+        </ul>
+
+        <div id="feedback"></div>
+
+
+
+        <script type="text/javascript" src="todo.js"></script>
+    </div>
+    <footer>
+        <div class="footGrid">
+            <div class="webMaster">
+                <h3>Thanks for visiting!</h3>
+                WebMaster: Sara Torres <br>
+            </div>
+            <div class="contact">
+                <h3>Contact Me!</h3>
+                <a href="mailto:storres39@collin.edu">E-Mail</a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
